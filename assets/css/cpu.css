@@ -73,9 +73,9 @@ h1 {
 }
 
 .main-header {
-    /* height: 40vh; */
+   
     font-size: 8rem;
-    /* line-height: 0.75; */
+    
 
 }
 
@@ -101,7 +101,7 @@ h1 {
     background-image: linear-gradient(#ff14bc, #fff70c, #084eff);
     -webkit-background-clip: text;
     background-size: 100%;
-    /* animation: bg-animation .25s infinite alternate; */
+    
 }
 
 
@@ -112,7 +112,6 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* height: 50vh; */
     margin-bottom: 1rem;
     margin: auto;
 
@@ -207,10 +206,9 @@ h1 {
     margin: 0;
 }
 
-/* KINDA DONT REALLY NEED THIS  */
+/* NEED THIS (to change die image size)  */
 .die {
-    /* height :30%;
-        width : 6%; */
+   
 
     margin-bottom: 3%;
 

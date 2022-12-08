@@ -113,7 +113,7 @@ h3 {
     background-image: linear-gradient(#ff14bc, #fff70c, #084eff);
     -webkit-background-clip: text;
     background-size: 100%;
-    /* animation: bg-animation .25s infinite alternate; */
+   
 }
 
 
@@ -223,8 +223,7 @@ h3 {
 
 /* KINDA DONT REALLY NEED THIS  */
 .die {
-    /* height :30%;
-        width : 6%; */
+    
 
     margin-bottom: 3%;
 
