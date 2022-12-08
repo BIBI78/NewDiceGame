@@ -32,11 +32,9 @@ h1 {
 }
 
 
-
 #win-header {
-    color: rgb(192, 11, 126);
-    /* color: rgb(192, 192, 192); */
-    text-shadow: 2px 2px 0 rgb(101, 241, 36);
+    color: rgb(192, 192, 192);
+    text-shadow: 2px 2px 0 rgb(192, 11, 126);
     margin: auto;
     font-family: "Permanent Marker", monospace;
     display: flex;
@@ -73,9 +71,9 @@ h1 {
 }
 
 .main-header {
-   
+    /* height: 40vh; */
     font-size: 8rem;
-    
+    /* line-height: 0.75; */
 
 }
 
@@ -101,7 +99,7 @@ h1 {
     background-image: linear-gradient(#ff14bc, #fff70c, #084eff);
     -webkit-background-clip: text;
     background-size: 100%;
-    
+    /* animation: bg-animation .25s infinite alternate; */
 }
 
 
@@ -112,6 +110,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* height: 50vh; */
     margin-bottom: 1rem;
     margin: auto;
 
@@ -143,8 +142,6 @@ h1 {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 
 }
-
-
 
 
 /* NOT EVEN SURE IF THIS WORKS  */
@@ -206,10 +203,16 @@ h1 {
     margin: 0;
 }
 
-/* NEED THIS (to change die image size)  */
-.die {
-   
-    margin-bottom: 3%;
-    
 
+.die {
+    /* height :30%;
+        width : 6%; */
+
+    margin-bottom: 3%;
+
+
+}
+
+.rules{
+    text-align: center;
 }
