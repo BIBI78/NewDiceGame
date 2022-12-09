@@ -209,11 +209,7 @@ h1 {
 }
 
 .rules{
-    /* text-align: center;
-    width:60%;
-    height:60%;
-    flex-direction: column;
-    justify-content: center; */
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -223,6 +219,11 @@ h1 {
     width:60%;
     height:60%;
     border-radius: 10px;
-    top: 10%;
+    margin-top: 25px;
    
+}
+
+.rules li{
+
+margin: 1em 0;
 }
