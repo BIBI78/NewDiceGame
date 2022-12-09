@@ -205,14 +205,24 @@ h1 {
 
 
 .die {
-    /* height :30%;
-        width : 6%; */
-
     margin-bottom: 3%;
-
-
 }
 
 .rules{
-    text-align: center;
+    /* text-align: center;
+    width:60%;
+    height:60%;
+    flex-direction: column;
+    justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 15vh;
+    margin: auto;
+    margin-bottom: 1%;
+    width:60%;
+    height:60%;
+    border-radius: 10px;
+    top: 10%;
+   
 }
