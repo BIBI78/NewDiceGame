@@ -115,12 +115,10 @@ h1 {
     margin: auto;
     /* padding: 10px; */
   
-
 }
 
 .options-choices{
     padding: 7px;
-
 }
 
 /* COMPLETELY FORGOT WHAT THIS DOES// YES YES I KNOW....I SHOULD HAVE NAMED IT BETTER !!! */
@@ -234,3 +232,15 @@ h1 {
 
 margin: 1em 0;
 }
+
+
+
+.MyButton {
+    background: inherit;
+    color: inherit;
+ }
+ 
+ .MyButton:hover, .MyButton:focus {
+    background: inherit;
+    color: #FFFF00;
+ }
