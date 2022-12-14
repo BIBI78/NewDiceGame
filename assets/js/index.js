@@ -4,7 +4,7 @@
 // I will leave this empty for now"
 
 
-
+// SAME JS FOR RULES HTML 
 
 
 

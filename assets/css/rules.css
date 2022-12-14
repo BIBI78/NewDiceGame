@@ -113,6 +113,13 @@ h1 {
     /* height: 50vh; */
     margin-bottom: 1rem;
     margin: auto;
+    /* padding: 10px; */
+  
+
+}
+
+.options-choices{
+    padding: 7px;
 
 }
 
