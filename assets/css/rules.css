@@ -241,6 +241,10 @@ margin: 1em 0;
  }
  
  .MyButton:hover, .MyButton:focus {
-    background: inherit;
-    color: #FFFF00;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    background-image: linear-gradient(#ff14bc, #fff70c, #084eff);
+    -webkit-background-clip: text;
+    background-size: 100%;
  }
