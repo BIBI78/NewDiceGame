@@ -19,6 +19,10 @@ The rules are simple, Roll 4 5 6 you win , 1 2 3 you lose and you must roll eith
 1. Options 
 * This game is up to two players or you can play against the CPU 
 ![OPTIONS](assets/images/options.png)
+* Ive also added an enlarge effect to the navigation bar.
+![NAVIGATION](assets/images/navbareffect.png)
+* The rules are explained here with no external links. 
+![RULES](assets/images/rules.png)
 
 2. Styling 
 * I styled the game in the 1980s 2-bit gaming fashion and tried to give a genuine 80s arcade game feel.
