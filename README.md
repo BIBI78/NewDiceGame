@@ -53,7 +53,7 @@ I. Roll/Kompare Fucntion
 ![example1](assets/images/p1Roll.png)
 * Already this fucntion is a difficult to explain in words but makes sense in my head, in the beginning the dice would "roll" once and then not work again even though my fucntion worked well in the cosnole ( random number between 1-6 were generated but the image/dice face wouldnt change) so first I went to google , I thought something like this would was common place but I was wrong....kinda. I couldnt find the solution online so I wnet the tutors and they couldnt figure it out. I was not happy to say the least so I decided to rewrite my JS and just by placing certain variables at the top and elminatining CONST on things that are actualy going change it all wokred out but really was quite the headache.
 ![example2](assets/images/codetop.png)
-![example3](assets/images/tripple2player)
+![example3](assets/images/tripple2player.png)
 
 
 ### HTML/CSS Validator
