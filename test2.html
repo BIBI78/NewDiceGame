@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Press+Start+2P&family=Rock+Salt&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/player2.css">
+    <link rel="shortcut icon" href="#">
+    <title> 2 PLAYER </title>
+</head>
+<body>
+    <section class="load">
+        <div class="title">
+         
+          <h1 class=" title main-header">Street Dice</h1>
+          
+        </div>
+        <h3 id = "win-header"></h3>
+    
+
+
+        <div class="options green-colorway">
+               
+  
+               
+          <a class= "options-choices MyButton" href="player1.html">1 player </a>
+          <a class= "options-choices MyButton" href="player2.html">2 players</a>
+          <a class= "options-choices MyButton" href="cpu.html">cpu</a>
+          <a class= "options-choices MyButton" href="rules.html">rules</a>
+          <a class= "options-choices MyButton" href="index.html">home screen</a> 
+
+
+           
+</div>
+
+<div class="green-colorway"> 
+    <h2>player 1</h2>
+    
+    <img id ="d1" src ="assets/images/d1.png"     height= "60%" width="12%" alt ="dice">
+    <img id ="d2" src ="assets/images/d2.png"     height= "60%" width="12%" alt ="dice">
+    <img id ="d3" src ="assets/images/d3.png"     height= "60%" width="12%" alt ="dice">
+  </div> 
+
+  <div class ="die">
+    <div class="green-colorway"> 
+      <h2>player 2</h2>
+      
+        <img id ="d4" src ="assets/images/d4.png" height= "60%" width="12%" alt ="dice">
+        <img id ="d5" src ="assets/images/d5.png" height= "60%" width="12%" alt ="dice">
+        <img id ="d6" src ="assets/images/d6.png" height= "60%" width="12%" alt ="dice">
+    </div>
+
+    <div class = " green-colorway">
+       
+        <button class = "slatt button " onclick ="Player1(); play()">P1</button> 
+        <button class = "slatt button " onclick ="Player2(); play()">P2</button> 
+          <button class = "slatt  button" onclick =" Kompare(); play()">Kompare</button>
+          <button id="restart" class = "slatt button">RESTART</button> 
+     
+            
+        
+          
+        </div>
+        <div class="bottom">
+          <img class="snake  green-colorway" src ="assets/images/arbok.png" alt ="snake">
+        <a href="index.html">
+          <span class="slatt">©</span>
+          <span class="slatt"> SLATT 2022</span></a>
+          <br>
+          <div class="green-colorway"> FREE YSL </div>
+      </div>
+</div>
+    </section>
+        <script src="assets/js/player2.js"></script>
+</body>
+</html>
