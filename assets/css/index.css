@@ -58,7 +58,7 @@ h1 {
     }
 }
 
-/* GIVING THE TITLE HEIGHT AND WIDTH MESSES UP THE LAYOUT OF MY CODE,  */
+
 .title {
     margin: auto;
     font-family: "UnifrakturMaguntia", monospace;
@@ -71,14 +71,14 @@ h1 {
 }
 
 .main-header {
-    /* height: 40vh; */
+
     font-size: 8rem;
-    /* line-height: 0.75; */
+
 
 }
 
 
-/* AGAIN THIS IS FOR THE TITLE ANIMATION */
+
 .title h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -99,30 +99,26 @@ h1 {
     background-image: linear-gradient(#ff14bc, #fff70c, #084eff);
     -webkit-background-clip: text;
     background-size: 100%;
-    /* animation: bg-animation .25s infinite alternate; */
+
 }
 
 
-/* AGAIN DEFINING HEIGHT MESSES UP THE LAYOUT */
-/* LINKS */
-/* SOMETHING IS GOING ON HERE , I JUST WANT A LITTLE SPACING BETWEEN OPTIONS */
+
 .options {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* height: 50vh; */
     margin-bottom: 1rem;
     margin: auto;
 
 }
 
-.options-choices{
+.options-choices {
     padding: 7px;
 
 }
 
-/* COMPLETELY FORGOT WHAT THIS DOES// YES YES I KNOW....I SHOULD HAVE NAMED IT BETTER !!! */
-/* OK ITS THE CLASS FOR THE IMAGE OF ARBOK KOBRA !!!!....MAKES SENSE  */
+
 .snake {
     display: flex;
     flex-direction: column;
@@ -142,21 +138,21 @@ h1 {
     font-size: 1.5rem;
 }
 
-/* DOESNT REALLY DO MUCH ...BUT IM OVER IT */
+
 .button:hover {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 
 }
 
 
-/* NOT EVEN SURE IF THIS WORKS  */
+
 .dieImage {
     height: 3rem;
     width: 6%;
 
 }
 
-/* EXTREMELY IMPORTANT / TOOK ME FORVER  */
+/* SPIN ANIMATION*/
 .spinImg {
     margin: 20px;
 
@@ -200,7 +196,7 @@ h1 {
 }
 
 
-/* DOES THIS DO ANYTHING ?? */
+
 #spinButton {
     background-color: black;
     text-align: center;
@@ -210,8 +206,6 @@ h1 {
 
 
 .die {
-    /* height :30%;
-        width : 6%; */
 
     margin-bottom: 3%;
 
@@ -221,11 +215,11 @@ h1 {
 .MyButton {
     background: inherit;
     color: inherit;
- }
- 
+}
 
 
- .MyButton:hover, .MyButton:focus {
+
+.MyButton:hover,
+.MyButton:focus {
     transform: scale(1.7) perspective(1px)
-    
- }
+}
