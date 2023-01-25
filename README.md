@@ -57,7 +57,7 @@ I. Roll/Kompare Fucntion
 ![example3](assets/images/tripple2player.png)
 * I also went through and tested that every type of roll worked. Here is an example for Player 1
 ![examplep1](assets/images/p1t1.png) 
-![examplep2](assets/images/p1t2.png) 
+![examplep2](assets/images/p1t5.png) 
 ![examplep3](assets/images/p1t3.png) 
 ![examplep4](assets/images/p1t4.png)
 
