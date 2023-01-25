@@ -3,6 +3,11 @@ let two;
 let compareValueOne = 1;
 let compareValueTwo = 2;
 
+let storageUsername = localStorage.getItem("username") || "";
+let usernameText = document.getElementById("storage-username");
+
+usernameText.innerText = `Welcome ${storageUsername}`
+
 
 function spin() {
     document.getElementById('img').className = 'spinImg';

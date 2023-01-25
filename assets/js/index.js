@@ -5,35 +5,7 @@
 
 
 // SAME JS FOR RULES HTML 
+let storageUsername = localStorage.getItem("username") || "";
+let usernameText = document.getElementById("storage-username");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+usernameText.innerText = `Welcome ${storageUsername}`
