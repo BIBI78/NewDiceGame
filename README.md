@@ -24,10 +24,11 @@ The rules are simple, Roll 4 5 6 you win , 1 2 3 you lose and you must roll eith
 * The rules are explained here with no external links. 
 ![RULES](assets/images/rules.png)
 
-2. Styling 
+2. Styling / Design 
 * I styled the game in the 1980s 2-bit gaming fashion and tried to give a genuine 80s arcade game feel.
 * I found the 2-bit font ("2-Player" in google fonts) first and that slowly inspired the rest of the project.
 things kind of fell into place.
+* The bright green I used throughout the project to really pop out at the user.
 ![STYLE](assets/images/style.png)
 * The color way is supposed to invoke snakes and the like to give the game a street/ unfair look, like you playing dice with a snake.
 3. Gradient
@@ -54,6 +55,11 @@ I. Roll/Kompare Fucntion
 * Already this fucntion is a difficult to explain in words but makes sense in my head, in the beginning the dice would "roll" once and then not work again even though my fucntion worked well in the cosnole ( random number between 1-6 were generated but the image/dice face wouldnt change) so first I went to google , I thought something like this would was common place but I was wrong....kinda. I couldnt find the solution online so I wnet the tutors and they couldnt figure it out. I was not happy to say the least so I decided to rewrite my JS and just by placing certain variables at the top and elminatining CONST on things that are actualy going change it all wokred out but really was quite the headache.
 ![example2](assets/images/codetop.png)
 ![example3](assets/images/tripple2player.png)
+* I also went through and tested that every type of roll worked. Here is an example for Player 1
+![examplep1](assets/images/p1t1.png) 
+![examplep2](assets/images/p1t2.png) 
+![examplep3](assets/images/p1t3.png) 
+![examplep4](assets/images/p1t4.png)
 
 
 ### HTML/CSS Validator
