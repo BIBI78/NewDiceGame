@@ -241,13 +241,7 @@ h3 {
     transform: scale(1.7) perspective(1px)
 }
 
-.my-die {
-    /* width: 120px;
-    height: auto; */
-    width: 12%;
-    height: 60%;
 
-}
 
 .dice-img {
     height: 60%;

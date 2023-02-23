@@ -225,3 +225,10 @@ h1 {
 .MyButton:focus {
     transform: scale(1.7) perspective(1px)
 }
+
+
+
+.dice-img {
+    height: 60%;
+    width: 12%
+}
