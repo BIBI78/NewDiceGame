@@ -10,7 +10,10 @@ usernameText.innerText = `Welcome ${storageUsername}`
 
 
 function spin() {
-    document.getElementById('img').className = 'spinImg';
+    console.log("SPINNING P1");
+    console.log(document.getElementById('img1').classList);
+    document.getElementById('img1').classList.add("spinImg");
+    console.log(document.getElementById('img1').classList);
     document.getElementById('img2').className = 'spinImg';
     document.getElementById('img3').className = 'spinImg';
 
@@ -42,7 +45,7 @@ function play() {
 
 
 function p1RollAgain() {
-    document.getElementById('d1').className = 'spinImg';
+    document.getElementById('d1').classList.add("spinImg");
     document.getElementById('d2').className = 'spinImg';
     document.getElementById('d3').className = 'spinImg';
 
@@ -135,7 +138,7 @@ function p1RollAgain() {
 function rollSpinKompareLoopPlayer1() {
 
 
-    document.getElementById('d1').className = 'spinImg';
+    document.getElementById('d1').classList.add("spinImg");
     document.getElementById('d2').className = 'spinImg';
     document.getElementById('d3').className = 'spinImg';
 
@@ -301,9 +304,10 @@ function rollSpinKompareLoopPlayer1() {
 function Player1() {
 
 
-    document.getElementById('d1').className = 'spinImg';
-    document.getElementById('d2').className = 'spinImg';
-    document.getElementById('d3').className = 'spinImg';
+    document.getElementById('d1').classList.add("spinImg");
+    document.getElementById('d2').classList.add("spinImg");
+    document.getElementById('d3').classList.add("spinImg");
+
 
 
 
