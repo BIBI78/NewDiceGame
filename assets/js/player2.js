@@ -6,7 +6,7 @@ let compareValueTwo = 2;
 let storageUsername = localStorage.getItem("username") || "";
 let usernameText = document.getElementById("storage-username");
 
-usernameText.innerText = `Welcome ${storageUsername}`
+
 
 
 function spin() {
@@ -51,9 +51,9 @@ function play() {
 
 
 function p1RollAgain() {
-    document.getElementById('d1').className = 'spinImg';
-    document.getElementById('d2').className = 'spinImg';
-    document.getElementById('d3').className = 'spinImg';
+    document.getElementById('d1').classList.add("spinImg");
+    document.getElementById('d2').classList.add("spinImg");
+    document.getElementById('d3').classList.add("spinImg");
 
     const firstNumber = Math.floor(Math.random() * 6) + 1;
     const secondNumber = Math.floor(Math.random() * 6) + 1;
@@ -138,9 +138,9 @@ function p1RollAgain() {
 
 
 function p2RollAgain() {
-    document.getElementById('d4').className = 'spinImg';
-    document.getElementById('d5').className = 'spinImg';
-    document.getElementById('d6').className = 'spinImg';
+    document.getElementById('d4').classList.add("spinImg");
+    document.getElementById('d5').classList.add("spinImg");
+    document.getElementById('d6').classList.add("spinImg");
 
     const fourthNumber = Math.floor(Math.random() * 6) + 1;
     const fifthNumber = Math.floor(Math.random() * 6) + 1;
@@ -240,9 +240,9 @@ function p2RollAgain() {
 function Player1() {
 
 
-    document.getElementById('d1').className = 'spinImg';
-    document.getElementById('d2').className = 'spinImg';
-    document.getElementById('d3').className = 'spinImg';
+    document.getElementById('d1').classList.add("spinImg");
+    document.getElementById('d2').classList.add("spinImg");
+    document.getElementById('d3').classList.add("spinImg");
 
 
 
@@ -393,9 +393,9 @@ function Player2() {
 
 
 
-    document.getElementById('d4').className = 'spinImg';
-    document.getElementById('d5').className = 'spinImg';
-    document.getElementById('d6').className = 'spinImg';
+    document.getElementById('d4').classList.add("spinImg");
+    document.getElementById('d5').classList.add("spinImg");
+    document.getElementById('d6').classList.add("spinImg");
 
 
     const d4 = document.getElementById('d4');
