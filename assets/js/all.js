@@ -124,7 +124,7 @@ function Player1() {
 
 
         compareValueOne = rollOneValue[2] * 10;
-        console.log("I. snake eyes//fourth conditon " + compareValueOne);
+
 
     } else if ((myRollOne[1] === myRollOne[2])) {
         const rollOneValue = myRollOne;
@@ -151,12 +151,12 @@ function Player1() {
 
 
     if (compareValueOne === 1000) {
-        console.log("automatic win player 1");
+
         document.querySelector('h3').innerHTML = 'Automatic Win PLAYER 1';
 
 
     } else if (compareValueOne === 0) {
-        console.log("automatic lose player 1");
+
         document.querySelector('h3').innerHTML = 'Automatic Lose PLAYER 1';
 
     } else if (myRollOne[0] === myRollOne[1] && myRollOne[1] === myRollOne[2]) {
@@ -173,7 +173,7 @@ function Player1() {
         document.querySelector('h3').innerHTML = 'Snake Eyes';
 
     } else {
-        console.log("final case");
+
         document.querySelector('h3').innerHTML = 'Snake Eyes';
 
 
@@ -304,12 +304,12 @@ function Player2() {
 
 
     if (compareValueTwo === 1000) {
-        console.log("automatic win player 2");
+
         document.querySelector('h3').innerHTML = 'Automatic Win PLAYER 2';
 
 
     } else if (compareValueTwo === 0) {
-        console.log("automatic lose player 2");
+
         document.querySelector('h3').innerHTML = 'Automatic Lose PLAYER 2';
 
     } else if (myRollTwo[0] === myRollTwo[1] && myRollTwo[1] === myRollTwo[2]) {
@@ -327,7 +327,7 @@ function Player2() {
 
 
     } else {
-        console.log("no idea what case this is");
+
         document.querySelector('h3').innerHTML = 'Snake Eyes';
 
     }
@@ -640,7 +640,7 @@ function Kompare() {
 
 
         compareValueOne = rollOneValue[2] * 10;
-        console.log("I. snake eyes//fourth conditon " + compareValueOne);
+
 
     } else if ((myRollOne[1] === myRollOne[2])) {
         const rollOneValue = myRollOne;
