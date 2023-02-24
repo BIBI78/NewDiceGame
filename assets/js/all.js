@@ -3,7 +3,7 @@ let two;
 let compareValueOne = 1;
 let compareValueTwo = 2;
 
-
+// This is the spin function, I use this to "spin" the dice images
 function spin() {
     document.getElementById('img').className = 'spinImg';
     document.getElementById('img2').className = 'spinImg';
@@ -12,6 +12,7 @@ function spin() {
 
 }
 
+// This just restarts the game by refreshing the page
 let restartBtn = document.getElementById("restart");
 
 restartBtn.addEventListener("click", function () {
@@ -21,7 +22,7 @@ restartBtn.addEventListener("click", function () {
 
 
 
-
+// Just a sound effect to emphasie the rolling/spining function
 function play() {
     var audio = new Audio('https://www.fesliyanstudios.com/play-mp3/387');
     audio.play();
@@ -31,7 +32,9 @@ function play() {
 
 
 
-
+// This function takes the first three dice images and spins them then it pick a random number between 1-6 
+// and switchs the dice face accordingly.
+// It essentially "rolls" the dice
 function Player1() {
 
 
@@ -182,7 +185,7 @@ function Player1() {
 
 
 }
-
+// Same as the Player1 function but does it for the second set of die
 function Player2() {
 
 
@@ -351,7 +354,7 @@ function Player2() {
 
 
 
-
+// This function is called when Player 1s roll need to be done again , and it essentially just repeats Player1 function
 function p1RollAgain() {
     document.getElementById('d1').classList.add("spinImg");
     document.getElementById('d2').classList.add("spinImg");
@@ -437,7 +440,7 @@ function p1RollAgain() {
     }
 }
 
-
+// This function is called when Player 2s roll need to be done again , and it essentially just repeats Player2 function
 function p2RollAgain() {
     document.getElementById('d4').classList.add("spinImg");
     document.getElementById('d5').classList.add("spinImg");
@@ -532,7 +535,7 @@ function p2RollAgain() {
 
 }
 
-
+// This function I use mainly for CPU page , it rolls and rerolls both die and compares them.
 function Kompare() {
 
     document.getElementById('d1').classList.add("spinImg");
@@ -772,5 +775,43 @@ function Kompare() {
 
 
 
+
+}
+
+// this Kompare is similar to the previous Kompare function but it doesnt roll any die it ONLY KOMPARES Player1 and Player2 rolls
+function KomparePlayer2() {
+
+    if (compareValueOne < compareValueTwo) {
+        console.log("Player Two Wins");
+        document.querySelector('h3').innerHTML = 'Player Two Wins'
+
+
+    } else if (compareValueOne > compareValueTwo) {
+        console.log("Player One Wins");
+        document.querySelector('h3').innerHTML = 'Player One Wins'
+
+    } else if (compareValueOne === 100) {
+        console.log("automatic win player 1");
+        document.querySelector('h3').innerHTML = 'Automatic Win PLAYER 1'
+
+
+    } else if (compareValueOne === 0) {
+        console.log("automatic lose player 1");
+        document.querySelector('h3').innerHTML = 'Automatic Lose PLAYER 1'
+
+    } else if (compareValueTwo === 0) {
+        console.log("automatic lose player 2")
+        document.querySelector('h3').innerHTML = 'Automatic Lose PLAYER 2'
+
+    } else if (compareValueTwo === 100) {
+        console.log("automatic win player 2")
+        document.querySelector('h3').innerHTML = 'Automatic Win PLAYER 2'
+    } else if (compareValueOne === compareValueTwo) {
+        console.log("equals , so roll again ")
+        document.querySelector('h3').innerHTML = 'Roll Again'
+
+    } else {
+        console.log("no idea what case this is")
+    }
 
 }
