@@ -74,11 +74,14 @@ I. Roll/Kompare Fucntion
 
 
 # Bugs
-* All bugs have been fixed. I had a problem with an icon but a quick google search cleared it up.
-* Problem & Solution
+* All bugs have been fixed the best. I had a problem with an icon but a quick google search cleared it up.
+* Problems & Solutions
 ![problem](assets/images/bug.png)
 ![solution](assets/images/solution.png)
-* There is a warning in the validator but I need this empyt header so I can later display the winner of each roll.
+* I also had a hard time settting the images width and height in CSS, while using the my spin function in javascript. So by setting the height and width in the html I got my code to work but I ended up with these errors. I fixed this problem by going into the javscript and reworking the code a little bit , instead of using className I use classList.add() and that solved the problem.
+![errors](assets/images/errors.png)
+* There is a warning in the validator but I need this empty header so I can later display the winner of each roll.
+![bug](assets/images/warning.png)
 
 
 # Deployment
