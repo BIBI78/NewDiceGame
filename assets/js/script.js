@@ -778,7 +778,8 @@ function Kompare() {
 
 }
 
-// this Kompare is similar to the previous Kompare function but it doesnt roll any die it ONLY KOMPARES Player1 and Player2 rolls
+// This Kompare is similar to the previous Kompare function but it doesnt roll any die it ONLY KOMPARES Player1 and Player2 rolls
+// This function is only user for the Player2 page
 function KomparePlayer2() {
 
     if (compareValueOne < compareValueTwo) {
