@@ -1,11 +1,11 @@
 # PROJECT 2 
 
-[Project 2](https://bibi78.github.io/DiceGame/)
+[Project 2](https://bibi78.github.io/NewDiceGame/)
 
 ![Responsive Images](assets/images/p2RESP.png)
 
 
-
+# THIS IS A RESUDMISSION PROJECT 
 
 # Features / The Game 
 
@@ -78,21 +78,26 @@ I. Roll/Kompare Fucntion
 * Problem & Solution
 ![problem](assets/images/bug.png)
 ![solution](assets/images/solution.png)
+* There is a warning in the validator but I need this empyt header so I can later display the winner of each roll.
+
 
 # Deployment
 
 * The site was deployed using Github pages.
 * All the directions given in the course video were followed.
-* The site is linked here https://bibi78.github.io/DiceGame/
+* The site is linked here https://bibi78.github.io/NewDiceGame/
 
 # Credits 
 ## Content
 * The font came from [Google Fonts](https://fonts.google.com/about) .
-* The changing die face img idea came from [YouTube](https://www.youtube.com/watch?v=B17NC5DD-dA&t=883s)
-* The Gradient idea came from [YouTube](https://www.youtube.com/watch?v=f3mwKLXpOLk) as well. 
+* The changing die face image (In the JS code , it is the spin function)idea came from [YouTube](https://www.youtube.com/watch?v=B17NC5DD-dA&t=883s) ![examplep1](assets/images/spinfunction.png)
+* The Gradient(In the CSScode it is used for the the title STREET DICE) idea came from [YouTube](https://www.youtube.com/watch?v=f3mwKLXpOLk) as well. 
 * The layout CSS I got the inspiration from the STREET FIGHTER game and page like [THIS](https://codepen.io/jkneb/pen/DRWdGg) & [THIS](https://dev.to/annlin/build-a-cool-thing-street-fighter-website-16j)
 
 ## Media 
 * All images came from Google.
 
 
+### SHOULD BE NOTED ###
+* In the CSS file I created seperate files for each html page so I could keep things neat.
+* I created seperate JS files for the same reason but all pages use the js script file. 
