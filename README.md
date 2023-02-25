@@ -17,8 +17,9 @@ The rules are simple, Roll 4 5 6 you win , 1 2 3 you lose and you must roll eith
 * This game is normally played between two people for money and I mainly focused on the "two player mode" and "cpu mode". You can roll die by yourself but it really doesnt make that much sense. I only added the "1 Player" option so two people could play against each other on seperate phones. But I mainly designed the game for 2 players.
 
 * I have created a seperate page to explain the rules inside the project but I will also explain them here. 
-* "The highest possible roll. If you roll 4–5–6, you automatically win. Rolling three same numbers is known as rolling a trip. Higher trips beat lower trips, so 4–4–4 is better than 3–3–3. Any trips beats any established point.Rolling a pair, and another number, establishes the singleton as a "point". A higher point beats a lower point, so 2–2–6 is better than 5–5–2. The lowest possible roll. If you roll 1–2–3, you automatically lose. Any other roll is a meaningless combination and must be rerolled until one of the above combinations occurs."[WIKIPEDIA](https://en.wikipedia.org/wiki/Cee-lo#:~:text=The%20players%20roll%20the%20dice,-If%20the%20banker&text=Each%20player%20then%20rolls%20the,point%20lower%20than%20the%20banker's.)
+* "The highest possible roll. If you roll 4–5–6, you automatically win. Rolling three same numbers is known as rolling a trip. Higher trips beat lower trips, so 4–4–4 is better than 3–3–3. Any trips beats any established point.Rolling a pair, and another number, establishes the singleton as a "point". A higher point beats a lower point, so 2–2–6 is better than 5–5–2. The lowest possible roll. If you roll 1–2–3, you automatically lose. Any other roll is a meaningless combination and must be rerolled until one of the above combinations occurs."
 * So the two players roll each die and then compare (KOMPARE) who got the highest roll. 
+* [WIKIPEDIA](https://en.wikipedia.org/wiki/Cee-lo#:~:text=The%20players%20roll%20the%20dice,-If%20the%20banker&text=Each%20player%20then%20rolls%20the,point%20lower%20than%20the%20banker's.)
 
 # FEATURES
 1. Options 
@@ -34,13 +35,13 @@ The rules are simple, Roll 4 5 6 you win , 1 2 3 you lose and you must roll eith
 * I found the 2-bit font ("2-Player" in google fonts) first and that slowly inspired the rest of the project.
 things kind of fell into place.
 * The bright green I used throughout the project to really pop out at the user.
-![STYLE](assets/images/style.png)
 * The color way is supposed to invoke snakes and the like to give the game a street/ unfair look, like you playing dice with a snake.
+![STYLE](assets/images/style.png)
 3. Gradient
 * I added this cool gradient feature to the title that gives it the effect of a flashing sign.
 * ![gradient image 1](assets/images/gradient1.png)
 * ![gradient image 2](assets/images/gradient2.png)
-* the color schemes were chosen with the 1980s arcade-game-feel in mind. I wanted to make a "throwback" game to time period I never experienced.
+* the color schemes were chosen with the 1980s arcade-game-feel in mind. I wanted to make a "throwback" game to a time period I never experienced.
 
 4. Cool Function
 I. Roll/Kompare Fucntion 
@@ -57,7 +58,7 @@ I. Roll/Kompare Fucntion
 
 # Testing 
 * The testing was difficult. I had a lot of bugs in my javascript I couldnt figure out. Actually I spent about five days on a problem with the "Roll" fucntion I created.
-![example1](assets/images/p1Roll.png)
+* ![example1](assets/images/p1Roll.png)
 * Already this fucntion is a difficult to explain in words but makes sense in my head, in the beginning the dice would "roll" once and then not work again even though my fucntion worked well in the cosnole ( random number between 1-6 were generated but the image/dice face wouldnt change) so first I went to google , I thought something like this would was common place but I was wrong....kinda. I couldnt find the solution online so I wnet the tutors and they couldnt figure it out. I was not happy to say the least so I decided to rewrite my JS and just by placing certain variables at the top and elminatining CONST on things that are actualy going change it all wokred out but really was quite the headache.
 ![example2](assets/images/codetop.png)
 ![example3](assets/images/tripple2player.png)
