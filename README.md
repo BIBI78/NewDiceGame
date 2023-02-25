@@ -5,7 +5,7 @@
 ![Responsive Images](assets/images/p2RESP.png)
 
 
-# THIS IS A RESUDMISSION PROJECT 
+
 
 # Features / The Game 
 
@@ -13,9 +13,14 @@ This is classic American dice game played on the streets of New York City.
 The rules are simple, Roll 4 5 6 you win , 1 2 3 you lose and you must roll either 2 die the same and one different XXY, YYX, or all the same XXX, YYY to have a valid roll, then the scores are determined by who rolls the biggest number. So for example any combination of 4,5,6 is an automatic win, (5 4 6 , 6 4 5, are the same roll) and likewise  any combination of 1,2,3, is an automatic lose. Then Tripples are the next highest roll , so for example , 444 beats 446.  And then 446 beats 663 , its the single number that is counted and so on.
 ![p1win](assets/images/win.png)
 
+# HOW TO PLAY 
 * This game is normally played between two people for money and I mainly focused on the "two player mode" and "cpu mode". You can roll die by yourself but it really doesnt make that much sense. I only added the "1 Player" option so two people could play against each other on seperate phones. But I mainly designed the game for 2 players.
 
+* I have created a seperate page to explain the rules inside the project but I will also explain them here. 
+* "The highest possible roll. If you roll 4–5–6, you automatically win. Rolling three same numbers is known as rolling a trip. Higher trips beat lower trips, so 4–4–4 is better than 3–3–3. Any trips beats any established point.Rolling a pair, and another number, establishes the singleton as a "point". A higher point beats a lower point, so 2–2–6 is better than 5–5–2. The lowest possible roll. If you roll 1–2–3, you automatically lose. Any other roll is a meaningless combination and must be rerolled until one of the above combinations occurs."[WIKIPEDIA](https://en.wikipedia.org/wiki/Cee-lo#:~:text=The%20players%20roll%20the%20dice,-If%20the%20banker&text=Each%20player%20then%20rolls%20the,point%20lower%20than%20the%20banker's.)
+* So the two players roll each die and then compare (KOMPARE) who got the highest roll. 
 
+# FEATURES
 1. Options 
 * This game is up to two players or you can play against the CPU 
 ![OPTIONS](assets/images/options.png)
@@ -35,6 +40,7 @@ things kind of fell into place.
 * I added this cool gradient feature to the title that gives it the effect of a flashing sign.
 * ![gradient image 1](assets/images/gradient1.png)
 * ![gradient image 2](assets/images/gradient2.png)
+* the color schemes were chosen with the 1980s arcade-game-feel in mind. I wanted to make a "throwback" game to time period I never experienced.
 
 4. Cool Function
 I. Roll/Kompare Fucntion 
@@ -89,6 +95,9 @@ I. Roll/Kompare Fucntion
 * The site was deployed using Github pages.
 * All the directions given in the course video were followed.
 * The site is linked here https://bibi78.github.io/NewDiceGame/
+
+# Deployment Part 2/ Cloning and Forking 
+* If someone would like to clone or fork this porject I suggest they refer to my earlier commits where the console logs are still used. Also the "mathematical logic" of each roll can get complicated so I suggest you play the game yourself a good amount first with the console logs to really see whats going on.  I encourgage anyone to try and play with the code. 
 
 # Credits 
 ## Content
