@@ -42,6 +42,7 @@ things kind of fell into place.
 * ![gradient image 1](assets/images/gradient1.png)
 * ![gradient image 2](assets/images/gradient2.png)
 * the color schemes were chosen with the 1980s arcade-game-feel in mind. I wanted to make a "throwback" game to a time period I never experienced.
+* The very bottom where it says SLATT and FREE YSL are just names from rap music that I used to make the game seem more legit like "Nintendo 1988" or something you would see at the bottom of a arcade game screen. You can also click on SLATT 2022 to return to the homescreen but it is not very important.
 
 4. Cool Function
 I. Roll/Kompare Fucntion 
