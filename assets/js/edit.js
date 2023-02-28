@@ -89,8 +89,8 @@ function p1RollAgain() {
 
     } else if (myRollOne[0] === myRollOne[1] && myRollOne[1] === myRollOne[2]) {
 
-
-        compareValueOne = myRollOne[0] * 10;
+        // error here
+        compareValueOne = myRollOne[0] * 100;
 
         console.log("I.tripples //third conditon " + compareValueOne);
 
@@ -184,7 +184,7 @@ function p2RollAgain() {
 
 
 
-        compareValueTwo = myRollTwo[0] * 10;
+        compareValueTwo = myRollTwo[0] * 100;
         console.log("II third conditon " + compareValueTwo);
 
     } else if (myRollTwo[0] === myRollTwo[1]) {
@@ -317,7 +317,7 @@ function Kompare() {
     } else if (myRollOne[0] === myRollOne[1] && myRollOne[1] === myRollOne[2]) {
 
         const rollOneValue = myRollOne[0];
-        compareValueOne = rollOneValue * 10;
+        compareValueOne = rollOneValue * 100;
 
         console.log("I.tripples //third conditon " + compareValueOne);
 
@@ -378,13 +378,13 @@ function Kompare() {
 
 
 
-        compareValueTwo = myRollTwo[0] * 3;
-        console.log("II third conditon " + compareValueTwo);
+        compareValueTwo = myRollTwo[0] * 100;
+        console.log("II third conditon new " + compareValueTwo);
 
     } else if (myRollTwo[0] === myRollTwo[1]) {
 
 
-
+        // error here
         compareValueTwo = myRollTwo[2] * 10;
         console.log("II fourth conditon " + compareValueTwo);
 
