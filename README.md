@@ -63,8 +63,9 @@ I. Roll/Kompare Fucntion
 * Already this fucntion is a difficult to explain in words but makes sense in my head, in the beginning the dice would "roll" once and then not work again even though my fucntion worked well in the cosnole ( random number between 1-6 were generated but the image/dice face wouldnt change) so first I went to google , I thought something like this would was common place but I was wrong....kinda. I couldnt find the solution online so I wnet the tutors and they couldnt figure it out. I was not happy to say the least so I decided to rewrite my JS and just by placing certain variables at the top and elminatining CONST on things that are actualy going change it all wokred out but really was quite the headache.
 ![example2](assets/images/codetop.png)
 ![example3](assets/images/tripple2player.png)
-* I also went through and tested that every type of roll worked. Here is an example for Player 1.
-* All pages passed this testing.
+* I have also made a simple spread sheet deatailing which test were ran on which page. ALP1 stands for Automatic Loss PLayer 1 and AWP1 stands for Automatic Win Player 1 and so on and so forth with the 2 Player page and CPU and the other pages. These tests were just to mae sure every instance of gameplay was attainable. So for the Index/Home page and Rules page Ive written N/A for Non Apllicable because those functions arent available on those pages.
+ ![exampletest](assets/images/testsheet.png) 
+ * Below I have provided images of all test working on the 1 player mode (PLayer 1) page.
 ![examplep1](assets/images/p1t1.png) 
 ![examplep2](assets/images/p1t5.png) 
 ![examplep3](assets/images/p1t3.png) 
