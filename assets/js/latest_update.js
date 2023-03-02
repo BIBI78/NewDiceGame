@@ -1,3 +1,4 @@
+// THIS JS HAS CONSOLE LOGS
 // This is the spin function, I use this to "spin" the dice images
 // The idea for this function came from a youtube video but I had to tweak a lot to make it work for me.
 function spin() {
