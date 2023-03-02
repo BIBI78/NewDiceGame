@@ -18,8 +18,12 @@ The rules are simple, Roll 4 5 6 you win , 1 2 3 you lose and you must roll eith
 
 * I have created a seperate page to explain the rules inside the project but I will also explain them here. 
 * "The highest possible roll. If you roll 4–5–6, you automatically win. Rolling three same numbers is known as rolling a trip. Higher trips beat lower trips, so 4–4–4 is better than 3–3–3. Any trips beats any established point.Rolling a pair, and another number, establishes the singleton as a "point". A higher point beats a lower point, so 2–2–6 is better than 5–5–2. The lowest possible roll. If you roll 1–2–3, you automatically lose. Any other roll is a meaningless combination and must be rerolled until one of the above combinations occurs."
+#  !NOTE ABOUT GAME PLAY !
+* The way I have written the java script I have made it possible only to roll "valid" rolls, that is to say rolls that dont count such as , 6 3 4, or X,Y,Z are not present.
 * So the two players roll each die and then compare (KOMPARE) who got the highest roll. 
 * [WIKIPEDIA](https://en.wikipedia.org/wiki/Cee-lo#:~:text=The%20players%20roll%20the%20dice,-If%20the%20banker&text=Each%20player%20then%20rolls%20the,point%20lower%20than%20the%20banker's.)
+
+
 
 # FEATURES
 1. Options 
@@ -64,8 +68,9 @@ I. Roll/Kompare Fucntion
 ![example2](assets/images/codetop.png)
 ![example3](assets/images/tripple2player.png)
 * I have also made a simple spread sheet deatailing which test were ran on which page. ALP1 stands for Automatic Loss PLayer 1 and AWP1 stands for Automatic Win Player 1 and so on and so forth with the 2 Player page and CPU and the other pages. These tests were just to mae sure every instance of gameplay was attainable. So for the Index/Home page and Rules page Ive written N/A for Non Apllicable because those functions arent available on those pages.
+* The way I have written the java script for each page is slightly different so not all roll outcomes are displayed. In the case where the roll outcome is not displayed on purporse I have written N/A.
  ![exampletest](assets/images/testsheet.png) 
- * Below I have provided images of all test working on the 1 player mode (PLayer 1) page.
+ * Below I have provided images of all test working on the 1 player mode (Player 1) page.
 ![examplep1](assets/images/p1t1.png) 
 ![examplep2](assets/images/p1t5.png) 
 ![examplep3](assets/images/p1t3.png) 
@@ -116,3 +121,4 @@ I. Roll/Kompare Fucntion
 ### SHOULD BE NOTED ###
 * In the CSS file I created seperate files for each html page so I could keep things neat.
 * I created seperate JS files for the same reason but all pages use the js script file. 
+
