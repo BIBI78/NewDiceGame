@@ -1,3 +1,6 @@
+// These are the varibles I use in my JS , I set them globally.
+let compareValueOne = 1;
+let compareValueTwo = 2;
 // This is the spin function, I use this to "spin" the dice images
 // The idea for this function came from a youtube video but I had to tweak a lot to make it work for me.
 // THIS IS THE LATEST UPDATE TO THE JS 
@@ -20,10 +23,6 @@ function play() {
 // and switchs the dice face accordingly.
 // It essentially "rolls" the dice
 function Player1() {
-    let one;
-    let two;
-    let compareValueOne = 1;
-    let compareValueTwo = 2;
     document.getElementById('d1').classList.add("spinImg");
     document.getElementById('d2').classList.add("spinImg");
     document.getElementById('d3').classList.add("spinImg");
@@ -93,10 +92,6 @@ function Player1() {
 }
 // Same as the Player1 function but does it for the second set of die
 function Player2() {
-    let one;
-    let two;
-    let compareValueOne = 1;
-    let compareValueTwo = 2;
     document.getElementById('d4').classList.add("spinImg");
     document.getElementById('d5').classList.add("spinImg");
     document.getElementById('d6').classList.add("spinImg");
@@ -363,23 +358,20 @@ function Kompare() {
 // This Kompare is similar to the previous Kompare function but it doesnt roll any die it ONLY KOMPARES Player1 and Player2 rolls
 // This function is only user for the Player2 page
 function KomparePlayer2() {
-    let one;
-    let two;
-    let compareValueOne = 1;
-    let compareValueTwo = 2;
+
     if (compareValueOne < compareValueTwo) {
-        document.querySelector('h3').innerHTML = 'Player Two Wins'
+        document.querySelector('h3').innerHTML = 'Player Two Wins';
     } else if (compareValueOne > compareValueTwo) {
-        document.querySelector('h3').innerHTML = 'Player One Wins'
+        document.querySelector('h3').innerHTML = 'Player One Wins';
     } else if (compareValueOne === 100) {
-        document.querySelector('h3').innerHTML = 'Automatic Win PLAYER 1'
+        document.querySelector('h3').innerHTML = 'Automatic Win PLAYER 1';
     } else if (compareValueOne === 0) {
-        document.querySelector('h3').innerHTML = 'Automatic Lose PLAYER 1'
+        document.querySelector('h3').innerHTML = 'Automatic Lose PLAYER 1';
     } else if (compareValueTwo === 0) {
-        document.querySelector('h3').innerHTML = 'Automatic Lose PLAYER 2'
+        document.querySelector('h3').innerHTML = 'Automatic Lose PLAYER 2';
     } else if (compareValueTwo === 100) {
-        document.querySelector('h3').innerHTML = 'Automatic Win PLAYER 2'
+        document.querySelector('h3').innerHTML = 'Automatic Win PLAYER 2';
     } else if (compareValueOne === compareValueTwo) {
-        document.querySelector('h3').innerHTML = 'Roll Again'
+        document.querySelector('h3').innerHTML = 'Roll Again';
     } else {}
 }

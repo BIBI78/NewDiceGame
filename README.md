@@ -88,8 +88,14 @@ I. Roll/Kompare Fucntion
 
 
 # Bugs
-* All bugs have been fixed the best. I had a problem with an icon but a quick google search cleared it up.
-* Problems & Solutions
+* Some of the "bugs" are intentional and are explained here. 
+* Bug in the Java Script.
+* The way I have written my Java Script 8 functions are called in the HTML when the user "clicks", this is intentional and just how the code works. I tried to find a way around it but I could not. This is the best I could do at this moment in time.
+![problem](assets/images/jshintp0.png)
+![solution](assets/images/jshintp1.png)
+![solution](assets/images/jshintp2.png)
+
+* I also had this problem in the console which took a google search to solve.
 ![problem](assets/images/bug.png)
 ![solution](assets/images/solution.png)
 * I also had a hard time settting the images width and height in CSS, while using the my spin function in javascript. So by setting the height and width in the html I got my code to work but I ended up with these errors. I fixed this problem by going into the javscript and reworking the code a little bit , instead of using className I use classList.add() and that solved the problem.
