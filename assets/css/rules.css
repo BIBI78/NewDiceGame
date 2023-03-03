@@ -5,10 +5,7 @@
             #B0FF08,
             #D7FF04,
             #FFFF00);
-
 }
-
-
 
 body {
     color: white;
@@ -20,8 +17,6 @@ body {
     margin: 0;
 }
 
-
-
 a {
     text-decoration: none;
     color: inherit;
@@ -30,7 +25,6 @@ a {
 h1 {
     margin: 0;
 }
-
 
 #win-header {
     color: rgb(192, 192, 192);
@@ -43,8 +37,6 @@ h1 {
     align-items: center;
     font-size: 3rem;
     text-transform: None;
-
-
 }
 
 /* THIS ANIMATION PLAYS A ROLL IN THE EFFECT I MADE FOR THE TITLE STREET DICE */
@@ -58,7 +50,6 @@ h1 {
     }
 }
 
-
 .title {
     margin: auto;
     font-family: "UnifrakturMaguntia", monospace;
@@ -67,21 +58,16 @@ h1 {
     justify-content: flex-end;
     align-items: center;
     text-transform: None;
-
 }
 
 .main-header {
     font-size: 8rem;
-
-
 }
-
 
 /* AGAIN THIS IS FOR THE TITLE ANIMATION */
 .title h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
     background-image: var(--gradient);
     -webkit-background-clip: text;
     background-size: 400%;
@@ -94,14 +80,10 @@ h1 {
 .slatt {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
     background-image: linear-gradient(#ff14bc, #fff70c, #084eff);
     -webkit-background-clip: text;
     background-size: 100%;
-
 }
-
-
 
 .options {
     display: flex;
@@ -109,14 +91,11 @@ h1 {
     justify-content: center;
     margin-bottom: 1rem;
     margin: auto;
-
-
 }
 
 .options-choices {
     padding: 7px;
 }
-
 
 .snake {
     display: flex;
@@ -127,7 +106,7 @@ h1 {
     margin-bottom: 1%;
 }
 
-/* PRETTY MUCH THE COLOR UBIQITOUS THROUGHOUT THE LAYOUT */
+/* THIS IS COLOR UBIQITOUS THROUGHOUT THE LAYOUT */
 .green-colorway {
     color: rgb(44, 226, 24);
     text-shadow: 2px 2px 0 rgb(116, 122, 117)
@@ -137,31 +116,23 @@ h1 {
     font-size: 1.5rem;
 }
 
-
 .button:hover {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 
 }
 
-
-
 .dieImage {
     height: 3rem;
     width: 6%;
-
 }
 
 /* SPIN EFFECT */
 .spinImg {
     margin: 20px;
-
     -webkit-animation-name: spin;
     -webkit-animation-duration: .2s;
     -webkit-animation-iteration-count: 5;
     -webkit-animation-timing-function: linear;
-
-
-
 }
 
 @-ms-keyframes spin {
@@ -194,7 +165,6 @@ h1 {
     }
 }
 
-
 #spinButton {
     background-color: black;
     text-align: center;
@@ -202,13 +172,11 @@ h1 {
     margin: 0;
 }
 
-
 .die {
     margin-bottom: 3%;
 }
 
 .rules {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -219,22 +187,16 @@ h1 {
     height: 60%;
     border-radius: 10px;
     margin-top: 25px;
-
 }
 
 .rules li {
-
     margin: 1em 0;
 }
-
-
 
 .MyButton {
     background: inherit;
     color: inherit;
 }
-
-
 
 .MyButton:hover,
 .MyButton:focus {
