@@ -8,8 +8,6 @@
 
 }
 
-
-
 body {
     color: white;
     background-color: black;
@@ -19,8 +17,6 @@ body {
     text-transform: uppercase;
     margin: 0;
 }
-
-
 
 a {
     text-decoration: none;
@@ -42,12 +38,10 @@ h3 {
     align-items: center;
     font-size: 3rem;
     text-transform: None;
-
 }
 
 #win-header {
     color: rgb(192, 11, 126);
-
     text-shadow: 2px 2px 0 rgb(101, 241, 36);
     margin: auto;
     font-family: "Permanent Marker", monospace;
@@ -57,8 +51,6 @@ h3 {
     align-items: center;
     font-size: 3rem;
     text-transform: None;
-
-
 }
 
 /* THIS ANIMATION PLAYS A ROLL IN THE EFFECT I MADE FOR THE TITLE STREET DICE */
@@ -72,7 +64,6 @@ h3 {
     }
 }
 
-
 .title {
     margin: auto;
     font-family: "UnifrakturMaguntia", monospace;
@@ -81,59 +72,43 @@ h3 {
     justify-content: flex-end;
     align-items: center;
     text-transform: None;
-
 }
 
 .main-header {
-
     font-size: 8rem;
-
-
 }
-
 
 /* AGAIN THIS IS FOR THE TITLE ANIMATION */
 .title h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
     background-image: var(--gradient);
     -webkit-background-clip: text;
     background-size: 400%;
     animation: bg-animation .25s infinite alternate;
 }
 
-
 /* THIS IS IS FOR THE BOTTOM TEXT CREDIT , INSPIRED BY OLD VIDEO GAMES */
 /* JUST A COLORWAY  */
 .slatt {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
     background-image: linear-gradient(#ff14bc, #fff70c, #084eff);
     -webkit-background-clip: text;
     background-size: 100%;
-
 }
-
-
 
 .options {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     margin-bottom: 1rem;
     margin: auto;
-
 }
-
 
 .options-choices {
     padding: 7px;
-
 }
-
 
 .snake {
     display: flex;
@@ -155,34 +130,22 @@ h3 {
     font-size: 1.5rem;
 }
 
-
-
 .button:hover {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-
 }
-
-
-
-
 
 .dieImage {
     height: 3rem;
     width: 6%;
-
 }
 
 /* SPIN IMAGE */
 .spinImg {
     margin: 20px;
-
     -webkit-animation-name: spin;
     -webkit-animation-duration: .2s;
     -webkit-animation-iteration-count: 5;
     -webkit-animation-timing-function: linear;
-
-
-
 }
 
 @-ms-keyframes spin {
@@ -224,7 +187,6 @@ h3 {
     margin: 0;
 }
 
-
 .die {
     margin-bottom: 3%;
 }
@@ -234,14 +196,10 @@ h3 {
     color: inherit;
 }
 
-
-
 .MyButton:hover,
 .MyButton:focus {
     transform: scale(1.7) perspective(1px)
 }
-
-
 
 .dice-img {
     height: 60%;
