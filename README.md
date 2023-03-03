@@ -27,11 +27,15 @@
     - [Bugs in CSS](#bugs-in-css)
     - [Bugsin Java Script](#bugs-in-java-script)
     - [Bugs in HTML](#bugs-in-html)
+    - [Tutor suggestions](#tutuor-suggetions)
   - [Deployment](#deployment)
     - [Cloning and Forking](#cloning-and-forking)
     - [Local Deployment](#local-deployment)
     - [Remote Deployment](#remote-deployment)
+  - [Media](#media)
   - [Credits and Acknowledgements](#credits-and-acknowledgements)
+  - [Additional Notes](#additional-notes)
+
 
 
 
@@ -115,6 +119,7 @@ I. Roll/Kompare Fucntion
  # HTML 
   - Html passes with no errors [W3 validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbibi78.github.io%2FNewDiceGame%2F). 
 There is a warning for 3 of 5 page which I explain in the "Bugs" section.
+![HTML](assets/images/warning.png)
 ![HTML](assets/images/htmlcheck.png)
 
  # CSS
@@ -140,8 +145,8 @@ There is a warning for 3 of 5 page which I explain in the "Bugs" section.
   # Tutuor suggetions
   - I was actually so stuck and freaked about this being a reason Id fail the project that I spoke to Code Institute Tutor about it. 
 
-    ![solution](assets/images/jshintp1.png)
-    ![solution](assets/images/jshintp2.png)
+    * ![solution](assets/images/jshintp1.png)
+    * ![solution](assets/images/jshintp2.png)
 
   - I also had this problem in the console which took a google search to solve.
 ![problem](assets/images/bug.png)
@@ -197,4 +202,5 @@ There is a warning for 3 of 5 page which I explain in the "Bugs" section.
 ### SHOULD BE NOTED ###
 * In the CSS file I created seperate files for each html page so I could keep things neat.
 * I created seperate JS files for the same reason but all pages use the js script file. 
+
 
