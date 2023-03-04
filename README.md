@@ -33,7 +33,7 @@
     - [Local Deployment](#local-deployment)
     - [Remote Deployment](#remote-deployment)
   - [Media](#media)
-  - [Credits and Acknowledgements](#credits-and-acknowledgements)
+  - [Credits and Acknowledgements](#credits)
   - [Additional Notes](#additional-notes)
 
 
@@ -129,13 +129,6 @@ There is a warning for 3 of 5 page which I explain in the "Bugs" section.
  # Java Script
   - JS Hint returned no errors. There are warnings though which I explain in the "Bugs" section.[JH Hint](https://jshint.com/) 
 ![JS](assets/images/jshintcheck.png)
-
-
-
-
-
-
-
 # Bugs
 * Some of the "bugs" are intentional and are explained here. 
   # Bug in Java Script.
@@ -162,22 +155,22 @@ There is a warning for 3 of 5 page which I explain in the "Bugs" section.
 
 
 # Deployment
-## Deployment Part 1
-
 * The site was deployed using Github pages.
 * All the directions given in the course video were followed.
 * The site is linked here https://bibi78.github.io/NewDiceGame/
 
 ### Local Deployment
 
-- Get to the  [Gitpod](https://gitpod.io/), then login with a Github account ,( you may need to download somethings depending on what already on you computer), after you youve opened your account return to this repository [HERE](https://github.com/BIBI78/NewDiceGame) , then click on green button to open and view the file.
-### Remote Deployment
-- ?
+- Get to the  [Gitpod](https://gitpod.io/) site, then login with a Github account ,( you may need to download some things depending on what you already have on you computer), after you have opened your account return to this repository [REPO](https://github.com/BIBI78/NewDiceGame) , then click on green button to open and view the file.
 
-# Deployment Part 2
+### Remote Deployment
+-  First choose a deployment application platform , prepare that application for deployment, that is to say make sure everythiing is configured so it works for you. Then connect using whatever deployment application you have chosen. You will need to have account of some sort normally to link up to the Github repository. After all that you can begin the deployment. Depending on which application you have chosen the steps might differ.
+
   ### Cloning and Forking 
 
 - If someone would like to clone or fork this porject I suggest they refer to my earlier commits where the console logs are still used. Also the "mathematical logic" of each roll can get complicated so I suggest you play the game yourself a good amount first with the console logs to really see whats going on.  I encourgage anyone to try and play with the code. 
+
+- It would interesting to see this game recreated and playable up to any number of players.
 
 - If you would like to copy this code and improve it select the code tab on the repo page to copy or download the zip file.
 - Forking does not seem to be availble in my current Github repo.
@@ -193,14 +186,15 @@ There is a warning for 3 of 5 page which I explain in the "Bugs" section.
 * All images came from Google.
     - Snake Logo
         - I got the snake logo from a pokemon site [SNAKE](https://www.pngitem.com/middle/iRixhRJ_pokemon-arbok-hd-png-download/)
-        - I also used a free website online to give all image used in this project a 2-bit arcade game effect [CONVERTER] (https://online-converting.com/image/convert2bmp/)
+        - I also used a free website online to give all images used in this project a 2-bit arcade game effect [CONVERTER] (https://online-converting.com/image/convert2bmp/)
     - Dice 
-        - I got the green die image from this site then I plugged into the converter mentioned above [GREENDICE](https://www.fruugo.se/high-grade-acrylic-transparent-dice-six-sided-d6-19mm-casino-dice-set-of-5/p-141911577-300066108?language=en&ac=croud&asc=pmax&gclid=Cj0KCQiA0oagBhDHARIsAI-BbgdPfGSz0w88GazF0aIYcEVwm_2tIVY-bdKQt4D7gm6d8fvqyQRrcYEaAsLyEALw_wcB)
+        - I got the green die image from this site then I plugged it into the converter mentioned above [GREENDICE](https://www.fruugo.se/high-grade-acrylic-transparent-dice-six-sided-d6-19mm-casino-dice-set-of-5/p-141911577-300066108?language=en&ac=croud&asc=pmax&gclid=Cj0KCQiA0oagBhDHARIsAI-BbgdPfGSz0w88GazF0aIYcEVwm_2tIVY-bdKQt4D7gm6d8fvqyQRrcYEaAsLyEALw_wcB)
         -  The dice I use for the spinning effect I got from wikipedia [DICE](https://commons.wikimedia.org/wiki/Category:Dice_faces)
 
 
-### SHOULD BE NOTED ###
+### ADDITIONAL NOTES ###
 * In the CSS file I created seperate files for each html page so I could keep things neat.
 * I created seperate JS files for the same reason but all pages use the js script file. 
+
 
 
