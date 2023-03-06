@@ -1,4 +1,10 @@
+// * THIS IS JUST WHERE ALLLL THE JS IS STORED IN CASE OF A PROBLEM
+// THIs JS FILE IS NOT USED
 // These are the varibles I use in my JS , I set them globally.
+const cpuButton = document.getElementById("cpu-button")
+const playerOneButton = document.getElementById("playerOne-button")
+const playerTwoButton = document.getElementById("playerTwo-button")
+const kompareTwoButton = document.getElementById("kompareTwo-button")
 let compareValueOne = 1;
 let compareValueTwo = 2;
 // This is the spin function, I use this to "spin" the dice images
@@ -197,7 +203,6 @@ function p1RollAgain() {
         p1RollAgain();
     }
 }
-
 // This function is called when Player 2s roll need to be done again , and it essentially just repeats Player2 function
 function p2RollAgain() {
     document.getElementById('d4').classList.add("spinImg");
@@ -329,7 +334,6 @@ function Kompare() {
     } else if (myRollTwo[0] === myRollTwo[1] && myRollTwo[1] === myRollTwo[2]) {
         compareValueTwo = myRollTwo[0] * 100;
     } else if (myRollTwo[0] === myRollTwo[1]) {
-        // CHECK THIS
         compareValueTwo = myRollTwo[2] * 10;
     } else if ((myRollTwo[1] === myRollTwo[2])) {
         compareValueTwo = myRollTwo[0] * 10;
@@ -354,11 +358,9 @@ function Kompare() {
         document.querySelector('h3').innerHTML = 'Roll Again';
     } else {}
 }
-
 // This Kompare is similar to the previous Kompare function but it doesnt roll any die it ONLY KOMPARES Player1 and Player2 rolls
 // This function is only user for the Player2 page
 function KomparePlayer2() {
-
     if (compareValueOne < compareValueTwo) {
         document.querySelector('h3').innerHTML = 'Player Two Wins';
     } else if (compareValueOne > compareValueTwo) {
@@ -375,3 +377,19 @@ function KomparePlayer2() {
         document.querySelector('h3').innerHTML = 'Roll Again';
     } else {}
 }
+cpuButton.addEventListener("click", function () {
+    Kompare();
+    play();
+});
+playerOneButton.addEventListener("click", function () {
+    Player1()
+    play();
+});
+playerTwoButton.addEventListener("click", function () {
+    Player2();
+    play();
+});
+kompareTwoButton.addEventListener("click", function () {
+    KomparePlayer2();
+    play();
+});

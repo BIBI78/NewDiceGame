@@ -2,7 +2,6 @@
 const cpuButton = document.getElementById("cpu-button");
 let compareValueOne = 1;
 let compareValueTwo = 2;
-
 // This just restarts the game by refreshing the page
 let restartBtn = document.getElementById("restart");
 restartBtn.addEventListener("click", function () {
