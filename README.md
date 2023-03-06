@@ -137,15 +137,12 @@ There is a warning for 3 of 5 page which I explain in the "Bugs" section.
   ![solution](assets/images/jshintsol1.png)
   ![solution](assets/images/jshintsol2.png)
 
-  - The way I have written my Java Script 8 functions are called in the HTML when the user "clicks", this is intentional and just how the code works. I tried to find a way around it but I could not. This is the best I could do at this moment in time.
-
-  - There was an error in the console for my rules and index page. In my head it seemed smarter to make seperate JS and CSS files for each page since there are not that many but I was told it is convetion to use the same js script for the whole project and so thats what I did. This problem was resolved by just taking out the JS file all together from these two pages since they really did need them. But I also coudlve created a new Js and removed the event listener that wasnt being used if I need too.
+  - There was an error in the console for my rules and index page. In my head it seemed smarter to make seperate JS and CSS files for each page since there are not that many but I was told it is convetion to use the same js script for the whole project and so thats what I did. This problem was resolved by just taking out the JS file all together from these two pages since they really did need them. But I also coudlve created a new Js and removed the event listener that wasnt being used if I needed too.
   ![problem](assets/images/console_error.png)
 
 ![problem](assets/images/jshintp0.png)
   # Tutuor suggetions
-  - I was actually so stuck and freaked about this being a reason Id fail the project that I spoke to Code Institute Tutor about it. 
-
+  - I was actually so stuck and freaked about this being a reason Id fail the project that I spoke to Code Institute Tutor about it. I Actually solved this problem myself and I talk about it up above in JS bugs section.
     * ![solution](assets/images/jshintp1.png)
     * ![solution](assets/images/jshintp2.png)
 
@@ -203,8 +200,10 @@ There is a warning for 3 of 5 page which I explain in the "Bugs" section.
 
 ### ADDITIONAL NOTES ###
 * In the CSS file I created seperate files for each html page so I could keep things neat.
-* I created seperate JS files for the same reason but all pages use the js script file.
+* I created seperate JS files for the same reason and I have included a library.js file that is not used but contains all the js for all pages just in case.
 * It was difficult to keep up with all the coding convetions. 
+* It should be noted that I removed the ability to roll "nonsense2 rolls, that is to say rolls that make the player roll again and mean nothing. I thought including it would make things to confusing for the uninitiated and seem kind of redundant
+* I learned a lot here the hard way. 
 
 
 
