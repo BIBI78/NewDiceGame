@@ -1,4 +1,8 @@
 // These are the varibles I use in my JS , I set them globally.
+const cpuButton = document.getElementById("cpu-button")
+const playerOneButton = document.getElementById("playerOne-button")
+const playerTwoButton = document.getElementById("playerTwo-button")
+const kompareTwoButton = document.getElementById("kompareTwo-button")
 let compareValueOne = 1;
 let compareValueTwo = 2;
 // This is the spin function, I use this to "spin" the dice images
@@ -371,3 +375,23 @@ function KomparePlayer2() {
         document.querySelector('h3').innerHTML = 'Roll Again';
     } else {}
 }
+
+cpuButton.addEventListener("click", function () {
+    Kompare();
+    play();
+})
+
+playerOneButton.addEventListener("click", function () {
+    Player1()
+    play();
+})
+
+playerTwoButton.addEventListener("click", function () {
+    Player2();
+    play();
+})
+
+kompareTwoButton.addEventListener("click", function () {
+    KomparePlayer2();
+    play();
+})
