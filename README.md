@@ -25,7 +25,7 @@
     - [Java Script](#java-script)
   - [Bugs](#bugs)
     - [Bugs in CSS](#bugs-in-css)
-    - [Bugsin Java Script](#bugs-in-java-script)
+    - [Bugs in Java Script](#bugs-in-java-script)
     - [Bugs in HTML](#bugs-in-html)
     - [Tutor suggestions](#tutuor-suggetions)
   - [Deployment](#deployment)
@@ -131,8 +131,11 @@ There is a warning for 3 of 5 page which I explain in the "Bugs" section.
 ![JS](assets/images/jshintcheck.png)
 # Bugs
 * Some of the "bugs" are intentional and are explained here. 
-  # Bug in Java Script.
+  # Bugs in Java Script.
   - The way I have written my Java Script 8 functions are called in the HTML when the user "clicks", this is intentional and just how the code works. I tried to find a way around it but I could not. This is the best I could do at this moment in time.
+
+  - There was an error in the console for my rules and index page. In my head it seemed smarter to make seperate JS and CSS files for each page since there are not that many but I was told it is convetion to use the same js script for the whole project and so thats what I did. This problem was resolved by just taking out the JS file all together from these two pages since they really did need them. But I also coudlve created a new Js and removed the event listener that wasnt being used if I need too.
+  ![problem](assets/images/console_error.png)
 
 ![problem](assets/images/jshintp0.png)
   # Tutuor suggetions
@@ -152,6 +155,7 @@ There is a warning for 3 of 5 page which I explain in the "Bugs" section.
 # Bugs in HTML
  - There is a warning in the validator but I need this empty header so I can later display the winner of each roll.
 ![bug](assets/images/warning.png)
+
 
 
 # Deployment
