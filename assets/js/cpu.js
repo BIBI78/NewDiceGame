@@ -1,15 +1,8 @@
 // These are the varibles I use in my JS , I set them globally.
-const cpuButton = document.getElementById("cpu-button")
+const cpuButton = document.getElementById("cpu-button");
 let compareValueOne = 1;
 let compareValueTwo = 2;
-// This is the spin function, I use this to "spin" the dice images
-// The idea for this function came from a youtube video but I had to tweak a lot to make it work for me.
-// THIS IS THE LATEST UPDATE TO THE JS 
-function spin() {
-    document.getElementById('img').className = 'spinImg';
-    document.getElementById('img2').className = 'spinImg';
-    document.getElementById('img3').className = 'spinImg';
-}
+
 // This just restarts the game by refreshing the page
 let restartBtn = document.getElementById("restart");
 restartBtn.addEventListener("click", function () {
@@ -20,8 +13,6 @@ function play() {
     var audio = new Audio('https://www.fesliyanstudios.com/play-mp3/387');
     audio.play();
 }
-
-
 // This function is called when Player 1s roll need to be done again , and it essentially just repeats Player1 function
 function p1RollAgain() {
     document.getElementById('d1').classList.add("spinImg");
@@ -31,10 +22,6 @@ function p1RollAgain() {
     const secondNumber = Math.floor(Math.random() * 6) + 1;
     const thirdNumber = Math.floor(Math.random() * 6) + 1;
     const myRollOne = [firstNumber, secondNumber, thirdNumber];
-
-    function removeSpinClass() {
-
-    }
     const firstDie = "assets/images/d" + firstNumber + ".png";
     const secondDie = "assets/images/d" + secondNumber + ".png";
     const thirdDie = "assets/images/d" + thirdNumber + ".png";
@@ -73,10 +60,6 @@ function p2RollAgain() {
     const fifthNumber = Math.floor(Math.random() * 6) + 1;
     const sixthNumber = Math.floor(Math.random() * 6) + 1;
     const myRollTwo = [fourthNumber, fifthNumber, sixthNumber];
-
-    function removeSpinClass() {
-
-    }
     const fourthDie = "assets/images/d" + fourthNumber + ".png";
     const fifthDie = "assets/images/d" + fifthNumber + ".png";
     const sixthDie = "assets/images/d" + sixthNumber + ".png";
@@ -219,9 +202,7 @@ function Kompare() {
         document.querySelector('h3').innerHTML = 'Roll Again';
     } else {}
 }
-
-
 cpuButton.addEventListener("click", function () {
     Kompare();
     play();
-})
+});
