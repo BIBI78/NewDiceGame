@@ -1,7 +1,6 @@
 // These are the varibles I use in my JS , I set them globally.
 const playerOneButton = document.getElementById("playerOne-button")
 let compareValueOne = 1;
-let compareValueTwo = 2;
 // This is the spin function, I use this to "spin" the dice images
 // The idea for this function came from a youtube video but I had to tweak a lot to make it work for me.
 // THIS IS THE LATEST UPDATE TO THE JS 
@@ -101,10 +100,6 @@ function p1RollAgain() {
     const secondNumber = Math.floor(Math.random() * 6) + 1;
     const thirdNumber = Math.floor(Math.random() * 6) + 1;
     const myRollOne = [firstNumber, secondNumber, thirdNumber];
-
-    function removeSpinClass() {
-
-    }
     const firstDie = "assets/images/d" + firstNumber + ".png";
     const secondDie = "assets/images/d" + secondNumber + ".png";
     const thirdDie = "assets/images/d" + thirdNumber + ".png";
@@ -134,9 +129,6 @@ function p1RollAgain() {
         p1RollAgain();
     }
 }
-
-
-
 playerOneButton.addEventListener("click", function () {
     Player1()
     play();
