@@ -132,6 +132,11 @@ There is a warning for 3 of 5 page which I explain in the "Bugs" section.
 # Bugs
 * Some of the "bugs" are intentional and are explained here. 
   # Bugs in Java Script.
+  - This was an interesting bug to solve. At first I thought there was no way to remove this "warning" or "error" and this was just a matter of the way I wrote the code. I talked to the tutors and they said just make a note of it here in the README doc  and if eveything else is fine it should be fine. Then I palyed around a little more out of nervousness and anxiety of not wanting to fail this porject and found a work around. At first I thought because of the way I called my buttons in the HTML there was no way to remove the UNUSED VARIABLES error in the js hint. Since I heard somewhere that the javascript should all be in one file I felt stuck then I decided to just reuse my original idea and create seperate js files for each page and "call the buttons" inside those seperate files and problem solved. 
+  ![problem](assets/images/jshintp0.png)
+  ![solution](assets/images/jshintsol1.png)
+  ![solution](assets/images/jshintsol2.png)
+
   - The way I have written my Java Script 8 functions are called in the HTML when the user "clicks", this is intentional and just how the code works. I tried to find a way around it but I could not. This is the best I could do at this moment in time.
 
   - There was an error in the console for my rules and index page. In my head it seemed smarter to make seperate JS and CSS files for each page since there are not that many but I was told it is convetion to use the same js script for the whole project and so thats what I did. This problem was resolved by just taking out the JS file all together from these two pages since they really did need them. But I also coudlve created a new Js and removed the event listener that wasnt being used if I need too.
@@ -198,7 +203,8 @@ There is a warning for 3 of 5 page which I explain in the "Bugs" section.
 
 ### ADDITIONAL NOTES ###
 * In the CSS file I created seperate files for each html page so I could keep things neat.
-* I created seperate JS files for the same reason but all pages use the js script file. 
+* I created seperate JS files for the same reason but all pages use the js script file.
+* It was difficult to keep up with all the coding convetions. 
 
 
 
