@@ -76,6 +76,7 @@ things kind of fell into place.
   # Design
 * The bright green I used throughout the project to really pop out at the user.
 * The color way is supposed to invoke snakes and the like to give the game a street/ unfair look, like you playing dice with a snake.
+* Everything from the navigation to the color schemes is inspired by arcade games.
 ![STYLE](assets/images/style.png)
 - Gradient
 * I added this cool gradient feature to the title that gives it the effect of a flashing sign.
@@ -85,7 +86,7 @@ things kind of fell into place.
 * The very bottom where it says SLATT and FREE YSL are just names from rap music that I used to make the game seem more legit like "Nintendo 1988" or something you would see at the bottom of a arcade game screen. You can also click on SLATT 2022 to return to the homescreen but it is not very important.
 
 - Cool Function
-I. Roll/Kompare Fucntion 
+ - Roll/Kompare Fucntion 
 * This function is essentially my whole project, you delete everyhting and leave this and I would be happy. This funtion "spin"/changes the die faces ,generates the random integers and compares the values. 
 * ![kompare](assets/images/kompare.png)
 
@@ -125,6 +126,7 @@ There is a warning for 3 of 5 page which I explain in the "Bugs" section.
  # CSS
   - No errors were returned when passing through the official CSS [W3 validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbibi78.github.io%2FNewDiceGame%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) 
 ![CSS](assets/images/csscheck.png)
+ - There are warninggs which I talk about in the  Bugs section below.
 
  # Java Script
   - JS Hint returned no errors. There are warnings though which I explain in the "Bugs" section.[JH Hint](https://jshint.com/) 
@@ -153,6 +155,11 @@ There is a warning for 3 of 5 page which I explain in the "Bugs" section.
 
   - I also had a hard time settting the images width and height in CSS, while using the my spin function in javascript. So by setting the height and width in the html I got my code to work but I ended up with these errors. I fixed this problem by going into the javscript and reworking the code a little bit , instead of using className I use classList.add() and that solved the problem.
 ![errors](assets/images/errors.png)
+
+- I got these warnings which dont really effect anything but should be noted. 
+![bug](assets/images/cssbug.png)
+
+
 
 # Bugs in HTML
  - There is a warning in the validator but I need this empty header so I can later display the winner of each roll.
