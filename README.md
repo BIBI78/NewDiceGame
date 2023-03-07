@@ -23,6 +23,7 @@
     - [CSS](#css)
     - [Spread sheet](#spread-sheet)
     - [Java Script](#java-script)
+    - [Individual Page Testing](#individual-page-testing)
   - [Bugs](#bugs)
     - [Bugs in CSS](#bugs-in-css)
     - [Bugs in Java Script](#bugs-in-java-script)
@@ -104,6 +105,64 @@ things kind of fell into place.
 * Already this fucntion is a difficult to explain in words but makes sense in my head, in the beginning the dice would "roll" once and then not work again even though my fucntion worked well in the cosnole ( random number between 1-6 were generated but the image/dice face wouldnt change) so first I went to google , I thought something like this would was common place but I was wrong....kinda. I couldnt find the solution online so I wnet the tutors and they couldnt figure it out. I was not happy to say the least so I decided to rewrite my JS and just by placing certain variables at the top and elminatining CONST on things that are actualy going change it all wokred out but really was quite the headache.
 ![example2](assets/images/codetop.png)
 ![example3](assets/images/tripple2player.png)
+
+
+# Individual Page Testing 
+`Home Page`
+
+| Feature | Expected Outcome| Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| The Sites Title | Changes from neon yellow to neon green  | Looked at title | Title flashes from green to yellow | Pass |
+| Navigation Effect | Enlarges when hovered over on | Hovered on button | Enlarges | Pass |
+
+
+`Player 1 Page`
+| Feature | Expected Outcome| Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| The Sites title | Changes from neon yellow to neon green  | Looked at title | Title flashes from green to yellow | Pass |
+| Navigation Effect | Enlarges when hovered over on | Hovered on button | Enlarges | Pass |
+| Dice spin | Spining of the dice | clicked button | dice spin| Pass|
+|  Roll Player 1 Button | Rolls dice and displays result | Clicked on button | Spins and displays value | Pass |
+| Restart Button | Resets the dice | Clicked on button | resets the dice | Pass |
+| Display rolls | Display all four outcomes of dice rolls| Clicked on button | all outcomes attainable| Pass |
+
+
+
+`Player 2 Page`
+| Feature | Expected Outcome| Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| The Sites title | Changes from neon yellow to neon green  | Looked at title | Title flashes from green to yellow | Pass |
+| Navigation Effect | Enlarges when hovered over on | Hovered on button | Enlarges | Pass |
+| Dice spin effect | Spining of the dice | clicked button | dice spin| Pass|
+|  Roll Player 1 Button | Rolls dice and displays result | Clicked on button | Spins and displays value | Pass |
+| Restart Button | Resets the dice | Clicked on button | resets the dice | Pass |
+|  Roll Player 2 Button | Rolls dice and displays result | Clicked on button | Spins and displays value | Pass |
+| Kompare Button | compares the dice and displays winner | Clicked on button | compares the dice and displays winner | Pass |
+| Display rolls | Display all four outcomes of dice rolls| Clicked on button | all outcomes attainable| Pass |
+
+
+
+`CPU Page`
+| Feature | Expected Outcome| Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| The Sites title | Changes from neon yellow to neon green  | Looked at title | Title flashes from green to yellow | Pass |
+| Navigation Effect | Enlarges when hovered over on | Hovered on button | Enlarges | Pass |
+| Dice spin effect | Spining of the dice | clicked button | dice spin| Pass|
+|  Roll CPU Button | Rolls dice and displays result and compares values and displays winner | Clicked on button | Spins ,compares values and display winner | Pass |
+| Restart Button | Resets the dice | Clicked on button | resets the dice | Pass |
+| Display rolls | Display all four outcomes of dice rolls| Clicked on button | all outcomes attainable| Pass |
+
+
+`Rules Page`
+| Feature | Expected Outcome| Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| The Sites Title | Changes from neon yellow to neon green  | Looked at title | Title flashes from green to yellow | Pass |
+| Navigation Effect | Enlarges when hovered over on | Hovered on button | Enlarges | Pass |
+
+
+
+
+
 
 # Spread sheet
 * I have also made a simple spread sheet deatailing which test were ran on which page. ALP1 stands for Automatic Loss PLayer 1 and AWP1 stands for Automatic Win Player 1 and so on and so forth with the 2 Player page and CPU and the other pages. These tests were just to mae sure every instance of gameplay was attainable. So for the Index/Home page and Rules page Ive written N/A for Non Apllicable because those functions arent available on those pages.

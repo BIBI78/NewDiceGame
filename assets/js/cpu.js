@@ -111,6 +111,7 @@ function Kompare() {
         d5.classList.remove('spinImg');
         d6.classList.remove('spinImg');
     }
+
     d1.addEventListener('animationend', removeSpinClass);
     d2.addEventListener('animationend', removeSpinClass);
     d3.addEventListener('animationend', removeSpinClass);
@@ -201,6 +202,7 @@ function Kompare() {
         document.querySelector('h3').innerHTML = 'Roll Again';
     } else {}
 }
+
 cpuButton.addEventListener("click", function () {
     Kompare();
     play();
