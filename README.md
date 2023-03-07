@@ -52,6 +52,8 @@ The rules are simple, Roll 4 5 6 you win , 1 2 3 you lose and you must roll eith
 
 * I have created a seperate page to explain the rules inside the project but I will also explain them here. 
 * "The highest possible roll. If you roll 4–5–6, you automatically win. Rolling three same numbers is known as rolling a trip. Higher trips beat lower trips, so 4–4–4 is better than 3–3–3. Any trips beats any established point.Rolling a pair, and another number, establishes the singleton as a "point". A higher point beats a lower point, so 2–2–6 is better than 5–5–2. The lowest possible roll. If you roll 1–2–3, you automatically lose. Any other roll is a meaningless combination and must be rerolled until one of the above combinations occurs."
+* The game is played in rounds , so each player rolls, compares values then a winner is decided and a new round is begun.
+
 #  !NOTE ABOUT GAME PLAY !
 * The way I have written the java script I have made it possible only to roll "valid" rolls, that is to say rolls that dont count such as , 6 3 4, or X,Y,Z are not present.
 * So the two players roll each die and then compare (KOMPARE) who got the highest roll. 
@@ -253,6 +255,7 @@ There is a warning for 3 of 5 page which I explain in the "Bugs" section.
 * The changing die face image (In the JS code , it is the spin function)idea came from [YouTube](https://www.youtube.com/watch?v=B17NC5DD-dA&t=883s) ![examplep1](assets/images/spinfunction.png)
 * The Gradient(In the CSScode it is used for the the title STREET DICE) idea came from [YouTube](https://www.youtube.com/watch?v=f3mwKLXpOLk) as well. 
 * The layout CSS I got the inspiration from the STREET FIGHTER game and page like [THIS](https://codepen.io/jkneb/pen/DRWdGg) & [THIS](https://dev.to/annlin/build-a-cool-thing-street-fighter-website-16j)
+* I got the outline for the testing individual pages from a Gitpod repo my mentor shared with me [HERE](https://github.com/kera-cudmore/TheQuizArms)
 
 ## Media 
 * All images came from Google.
