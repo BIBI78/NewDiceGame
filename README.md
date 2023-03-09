@@ -55,6 +55,14 @@ The rules are simple, Roll 4 5 6 you win , 1 2 3 you lose and you must roll eith
 * "The highest possible roll. If you roll 4–5–6, you automatically win. Rolling three same numbers is known as rolling a trip. Higher trips beat lower trips, so 4–4–4 is better than 3–3–3. Any trips beats any established point.Rolling a pair, and another number, establishes the singleton as a "point". A higher point beats a lower point, so 2–2–6 is better than 5–5–2. The lowest possible roll. If you roll 1–2–3, you automatically lose. Any other roll is a meaningless combination and must be rerolled until one of the above combinations occurs."
 * The game is played in rounds , so each player rolls, compares values then a winner is decided and a new round is begun.
 
+* A note about the permutations and how often each roll is expected to appear-
+- 4-5-6: 6/216 = 2.78% (Automatic Win)
+- Trips: 6/216 = 2.78%
+- Point/Snake Eyes: 90/216 = 41.67%
+- 1-2-3: 6/216 = 2.78% (Automatic Loss)
+- Meaningless permutations: 108/216 = 50%( which is not included in this version of the game.)
+- THESE CALCULATIONS WERE TAKEN FROM WIKIPEDIA.
+
 #  !NOTE ABOUT GAME PLAY !
 * The way I have written the java script I have made it possible only to roll "valid" rolls, that is to say rolls that dont count such as , 6 3 4, or X,Y,Z are not present.
 * So the two players roll each die and then compare (KOMPARE) who got the highest roll. 
