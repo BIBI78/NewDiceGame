@@ -18,6 +18,7 @@
     - [Rules](#rules)
     - [Styling](#styling) 
     - [Design](#design)
+    - [Typography](#typography)
   - [Testing](#testing)
     - [HTML](#html)
     - [CSS](#css)
@@ -77,7 +78,8 @@ The rules are simple, Roll 4 5 6 you win , 1 2 3 you lose and you must roll eith
 * I found the 2-bit font ("2-Player" in google fonts) first and that slowly inspired the rest of the project.
 things kind of fell into place.
   # Design
-* The bright green I used throughout the project to really pop out at the user.
+* I wanted to keep evrything simple with the color scheme so as not to take away too much attetion from the game.
+ The neon green & yellow I used throughout the project was just to make the game and the navigation, title  etc distinctly different from the dice.
 * The color way is supposed to invoke snakes and the like to give the game a street/ unfair look, like you playing dice with a snake.
 * Everything from the navigation to the color schemes is inspired by arcade games.
 ![STYLE](assets/images/style.png)
@@ -86,6 +88,8 @@ things kind of fell into place.
 * ![gradient image 1](assets/images/gradient1.png)
 * ![gradient image 2](assets/images/gradient2.png)
 * the color schemes were chosen with the 1980s arcade-game-feel in mind. I wanted to make a "throwback" game to a time period I never experienced.
+# Typography
+* I used Google Font for the typography: I wanted to really invoke the "Street Fighter" feeling so choosing the fonts wasnt that complicated. I used the "Permanent Marker" font ( for that street tag feel) for the main title and the "Press Start 2P" for everything else.
 * The very bottom where it says SLATT and FREE YSL are just names from rap music that I used to make the game seem more legit like "Nintendo 1988" or something you would see at the bottom of a arcade game screen. You can also click on SLATT 2022 to return to the homescreen but it is not very important.
 
 - Cool Function
@@ -269,10 +273,10 @@ There is a warning for 3 of 5 page which I explain in the "Bugs" section.
 
 ### ADDITIONAL NOTES ###
 * In the CSS file I created seperate files for each html page so I could keep things neat.
-* I created seperate JS files for the same reason and I have included a library.js file that is not used but contains all the js for all pages just in case.
+* I created seperate JS files for the same reason mentioned above and I have included a library.js file that is not used but contains all the js for all pages just in case.
 * It was difficult to keep up with all the coding convetions. 
-* It should be noted that I removed the ability to roll "nonsense2 rolls, that is to say rolls that make the player roll again and mean nothing. I thought including it would make things to confusing for the uninitiated and seem kind of redundant
-* I learned a lot here the hard way. 
+* It should be noted that I removed the ability to roll "nonsense" rolls, that is to say rolls that make the player roll again and mean nothing. I thought including it would make things to confusing for the uninitiated and it seemed kind of redundant.
+
 
 
 
