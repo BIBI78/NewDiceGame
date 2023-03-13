@@ -1,18 +1,18 @@
-// These are the varibles I use in my JS , I set them globally.
+/** These are the varibles I use in my JS , I set them globally. */
 const cpuButton = document.getElementById("cpu-button");
 let compareValueOne = 1;
 let compareValueTwo = 2;
-// This just restarts the game by refreshing the page
+/** This just restarts the game by refreshing the page*/
 let restartBtn = document.getElementById("restart");
 restartBtn.addEventListener("click", function () {
     window.location.reload();
 });
-// Just a sound effect to emphasie the rolling/spining function
+/** Just a sound effect to emphasie the rolling/spining function */
 function play() {
     var audio = new Audio('https://www.fesliyanstudios.com/play-mp3/387');
     audio.play();
 }
-// This function is called when Player 1s roll need to be done again , and it essentially just repeats Player1 function
+/** This function is called when Player 1s roll need to be done again , and it essentially just repeats Player1 function */
 function p1RollAgain() {
     document.getElementById('d1').classList.add("spinImg");
     document.getElementById('d2').classList.add("spinImg");
@@ -50,7 +50,7 @@ function p1RollAgain() {
         p1RollAgain();
     }
 }
-// This function is called when Player 2s roll need to be done again , and it essentially just repeats Player2 function
+/** This function is called when Player 2s roll need to be done again , and it essentially just repeats Player2 function */
 function p2RollAgain() {
     document.getElementById('d4').classList.add("spinImg");
     document.getElementById('d5').classList.add("spinImg");
@@ -88,7 +88,7 @@ function p2RollAgain() {
         p2RollAgain();
     }
 }
-// This function I use mainly for CPU page , it rolls and rerolls both die and compares them.
+/** This function I use mainly for CPU page , it rolls and rerolls both die and compares them. */
 function Kompare() {
     document.getElementById('d1').classList.add("spinImg");
     document.getElementById('d2').classList.add("spinImg");

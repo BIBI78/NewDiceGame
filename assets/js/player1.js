@@ -1,27 +1,26 @@
-// These are the varibles I use in my JS , I set them globally.
+/** These are the varibles I use in my JS , I set them globally. */
 const playerOneButton = document.getElementById("playerOne-button")
 let compareValueOne = 1;
-// This is the spin function, I use this to "spin" the dice images
-// The idea for this function came from a youtube video but I had to tweak a lot to make it work for me.
-// THIS IS THE LATEST UPDATE TO THE JS 
+/** This is the spin function, I use this to "spin" the dice images
+ * The idea for this function came from a youtube video but I had to tweak a lot to make it work for me.*/
 function spin() {
     document.getElementById('img').className = 'spinImg';
     document.getElementById('img2').className = 'spinImg';
     document.getElementById('img3').className = 'spinImg';
 }
-// This just restarts the game by refreshing the page
+/** This just restarts the game by refreshing the page */
 let restartBtn = document.getElementById("restart");
 restartBtn.addEventListener("click", function () {
     window.location.reload();
 });
-// Just a sound effect to emphasie the rolling/spining function
+/** Just a sound effect to emphasie the rolling/spining function */
 function play() {
     var audio = new Audio('https://www.fesliyanstudios.com/play-mp3/387');
     audio.play();
 }
-// This function takes the first three dice images and spins them then it pick a random number between 1-6 
-// and switchs the dice face accordingly.
-// It essentially "rolls" the dice
+/** This function takes the first three dice images and spins them then it pick a random number between 1-6 
+ * and switchs the dice face accordingly.
+ *  It essentially "rolls" the dice */
 function Player1() {
     document.getElementById('d1').classList.add("spinImg");
     document.getElementById('d2').classList.add("spinImg");
@@ -90,8 +89,7 @@ function Player1() {
         document.querySelector('h3').innerHTML = 'Snake Eyes';
     }
 }
-
-// This function is called when Player 1s roll need to be done again , and it essentially just repeats Player1 function
+/** This function is called when Player 1s roll need to be done again , and it essentially just repeats Player1 function */
 function p1RollAgain() {
     document.getElementById('d1').classList.add("spinImg");
     document.getElementById('d2').classList.add("spinImg");

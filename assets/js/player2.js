@@ -1,26 +1,22 @@
-// These are the varibles I use in my JS , I set them globally.
+/**  These are the varibles I use in my JS , I set them globally. */
 const playerOneButton = document.getElementById("playerOne-button");
 const playerTwoButton = document.getElementById("playerTwo-button");
 const kompareTwoButton = document.getElementById("kompareTwo-button");
 let compareValueOne = 1;
 let compareValueTwo = 2;
-// This is the spin function, I use this to "spin" the dice images
-// The idea for this function came from a youtube video but I had to tweak a lot to make it work for me.
-// THIS IS THE LATEST UPDATE TO THE JS 
-
-// This just restarts the game by refreshing the page
+/**  This just restarts the game by refreshing the page */
 let restartBtn = document.getElementById("restart");
 restartBtn.addEventListener("click", function () {
     window.location.reload();
 });
-// Just a sound effect to emphasie the rolling/spining function
+/**  Just a sound effect to emphasie the rolling/spining function */
 function play() {
     var audio = new Audio('https://www.fesliyanstudios.com/play-mp3/387');
     audio.play();
 }
-// This function takes the first three dice images and spins them then it pick a random number between 1-6 
-// and switchs the dice face accordingly.
-// It essentially "rolls" the dice
+/** This function takes the first three dice images and spins them then it pick a random number between 1-6 
+ * and switchs the dice face accordingly.
+ * It essentially "rolls" the dice */
 function Player1() {
     document.getElementById('d1').classList.add("spinImg");
     document.getElementById('d2').classList.add("spinImg");
@@ -89,7 +85,7 @@ function Player1() {
         document.querySelector('h3').innerHTML = 'Snake Eyes';
     }
 }
-// Same as the Player1 function but does it for the second set of die
+/**  Same as the Player1 function but does it for the second set of die */
 function Player2() {
     document.getElementById('d4').classList.add("spinImg");
     document.getElementById('d5').classList.add("spinImg");
@@ -154,7 +150,7 @@ function Player2() {
         document.querySelector('h3').innerHTML = 'Snake Eyes';
     }
 }
-// This function is called when Player 1s roll need to be done again , and it essentially just repeats Player1 function
+/**  This function is called when Player 1s roll need to be done again , and it essentially just repeats Player1 function */
 function p1RollAgain() {
     document.getElementById('d1').classList.add("spinImg");
     document.getElementById('d2').classList.add("spinImg");
@@ -192,7 +188,7 @@ function p1RollAgain() {
         p1RollAgain();
     }
 }
-// This function is called when Player 2s roll need to be done again , and it essentially just repeats Player2 function
+/**  This function is called when Player 2s roll need to be done again , and it essentially just repeats Player2 function */
 function p2RollAgain() {
     document.getElementById('d4').classList.add("spinImg");
     document.getElementById('d5').classList.add("spinImg");
@@ -230,9 +226,8 @@ function p2RollAgain() {
         p2RollAgain();
     }
 }
-
-// This Kompare is similar to the previous Kompare function but it doesnt roll any die it ONLY KOMPARES Player1 and Player2 rolls
-// This function is only user for the Player2 page
+/** This Kompare is similar to the previous Kompare function but it doesnt roll any die it ONLY KOMPARES Player1 and Player2 rolls.
+ * This function is only used for the Player2 page */
 function KomparePlayer2() {
     if (compareValueOne < compareValueTwo) {
         document.querySelector('h3').innerHTML = 'Player Two Wins';
