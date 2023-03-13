@@ -49,7 +49,7 @@ The rules are simple, Roll 4 5 6 you win , 1 2 3 you lose and you must roll eith
 ![p1win](assets/images/win.png)
 
 # HOW TO PLAY 
-* This game is normally played between two people for money and I mainly focused on the "two player mode" and "cpu mode". You can roll die by yourself but it really doesnt make that much sense. I only added the "1 Player" option so two people could play against each other on seperate phones. But I mainly designed the game for 2 players.
+* This game is normally played between two people for money and I mainly focused on the "two player mode" and "cpu mode". You can roll dice by yourself but it really doesnt make that much sense. I only added the "1 Player" option so two people could play against each other on seperate phones. But I mainly designed the game for 2 players.
 
 * I have created a seperate page to explain the rules inside the project but I will also explain them here. 
 * "The highest possible roll. If you roll 4–5–6, you automatically win. Rolling three same numbers is known as rolling a trip. Higher trips beat lower trips, so 4–4–4 is better than 3–3–3. Any trips beats any established point.Rolling a pair, and another number, establishes the singleton as a "point". A higher point beats a lower point, so 2–2–6 is better than 5–5–2. The lowest possible roll. If you roll 1–2–3, you automatically lose. Any other roll is a meaningless combination and must be rerolled until one of the above combinations occurs."
@@ -86,7 +86,7 @@ The rules are simple, Roll 4 5 6 you win , 1 2 3 you lose and you must roll eith
 * I found the 2-bit font ("2-Player" in google fonts) first and that slowly inspired the rest of the project.
 things kind of fell into place.
   # Design
-* I wanted to keep evrything simple with the color scheme so as not to take away too much attetion from the game.
+* I wanted to keep evrything simple with the color scheme so as not to take away too much attention from the game.
  The neon green & yellow I used throughout the project was just to make the game and the navigation, title  etc distinctly different from the dice.
 * The color way is supposed to invoke snakes and the like to give the game a street/ unfair look, like you playing dice with a snake.
 * Everything from the navigation to the color schemes is inspired by arcade games.
@@ -179,7 +179,7 @@ things kind of fell into place.
 
 
 # Spread sheet
-* I have also made a simple spread sheet deatailing which test were ran on which page. ALP1 stands for Automatic Loss PLayer 1 and AWP1 stands for Automatic Win Player 1 and so on and so forth with the 2 Player page and CPU and the other pages. These tests were just to mae sure every instance of gameplay was attainable. So for the Index/Home page and Rules page Ive written N/A for Non Apllicable because those functions arent available on those pages.
+* I have also made a simple spread sheet deatailing which test were ran on which page. ALP1 stands for Automatic Loss PLayer 1 and AWP1 stands for Automatic Win Player 1 and so on and so forth with the 2 Player page and CPU and the other pages. These tests were just to make sure every instance of gameplay was attainable. So for the Index/Home page and Rules page Ive written N/A for Non Apllicable because those functions arent available on those pages.
 * The way I have written the java script for each page is slightly different so not all roll outcomes are displayed. In the case where the roll outcome is not displayed on purporse I have written N/A.
  ![exampletest](assets/images/testsheet.png) 
  * Below I have provided images of all test working on the 1 player mode (Player 1) page.
@@ -199,7 +199,7 @@ There is a warning for 3 of 5 page which I explain in the "Bugs" section.
  # CSS
   - No errors were returned when passing through the official CSS [W3 validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbibi78.github.io%2FNewDiceGame%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) 
 ![CSS](assets/images/csscheck.png)
- - There are warninggs which I talk about in the  Bugs section below.
+ - There are warnings which I talk about in the  Bugs section below.
 
  # Java Script
   - JS Hint returned no errors. There are warnings though which I explain in the "Bugs" section.[JH Hint](https://jshint.com/) 
@@ -207,7 +207,7 @@ There is a warning for 3 of 5 page which I explain in the "Bugs" section.
 # Bugs
 * Some of the "bugs" are intentional and are explained here. 
   # Bugs in Java Script.
-  - This was an interesting bug to solve. At first I thought there was no way to remove this "warning" or "error" and this was just a matter of the way I wrote the code. I talked to the tutors and they said just make a note of it here in the README doc  and if eveything else is fine it should be fine. Then I palyed around a little more out of nervousness and anxiety of not wanting to fail this porject and found a work around. At first I thought because of the way I called my buttons in the HTML there was no way to remove the UNUSED VARIABLES error in the js hint. Since I heard somewhere that the javascript should all be in one file I felt stuck then I decided to just reuse my original idea and create seperate js files for each page and "call the buttons" inside those seperate files and problem solved. 
+  - This was an interesting bug to solve. At first I thought there was no way to remove this "warning" or "error" and this was just a matter of the way I wrote the code. I talked to the tutors and they said just make a note of it here in the README doc  and if everything else is fine it should be fine. Then I palyed around a little more out of nervousness and anxiety of not wanting to fail this porject and found a work around. At first I thought because of the way I called my buttons in the HTML there was no way to remove the UNUSED VARIABLES error in the js hint. Since I heard somewhere that the javascript should all be in one file I felt stuck then I decided to just reuse my original idea and create seperate js files for each page and "call the buttons" inside those seperate files and problem solved. 
   ![problem](assets/images/jshintp0.png)
   ![solution](assets/images/jshintsol1.png)
   ![solution](assets/images/jshintsol2.png)
